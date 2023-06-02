@@ -21,11 +21,9 @@
             "Remove-Item \"$dir\\.tmp\", \"$dir\\$fname\" -Force -Recurse"
         ]
     },
-    {
     "persist": [
         ["Everything-plugin", "modules\\launcher\\Plugins\\Everything"]
-        ]
-    },
+    ],
     "post_install": [
         "foreach ($f in @('modules\\FileLocksmith', 'modules\\Hosts', 'modules\\MeasureTool', ",
         "                 'modules\\PowerRename', 'modules\\RegistryPreview', 'modules\\Peek')) {",
