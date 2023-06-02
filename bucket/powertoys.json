@@ -22,7 +22,7 @@
         ]
     },
     "persist": [
-        ["Everything-plugin", "modules\\launcher\\Plugins\\Everything"]
+        ["modules\\launcher\\Plugins\\Everything", "Everything-plugin"]
     ],
     "post_install": [
         "foreach ($f in @('modules\\FileLocksmith', 'modules\\Hosts', 'modules\\MeasureTool', ",
