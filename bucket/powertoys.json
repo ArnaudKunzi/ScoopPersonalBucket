@@ -23,7 +23,7 @@
     },
     "persist": [
         [
-            "modules\\launcher\\Plugins\\Everything",
+            "RunPlugins\\Everything",
             "Everything-plugin"
         ]
     ],
