@@ -1,0 +1,27 @@
+{
+    "version": "1.11",
+    "description": "Tool which merges the classic SDK tools OleView and Test Container into one application",
+    "homepage": "https://github.com/tyranid/oleviewdotnet",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tyranid/oleviewdotnet/releases/download/v1.11/Release.7z"
+        }
+    },
+    "extract_dir": "oleviewdotnet",
+    "bin": "oleviewdotnet.exe"
+    "shortcuts": [
+        [
+            "oleviewdotnet.exe",
+            "oleviewdotnet"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tyranid/oleviewdotnet/releases/download/v$version/Release.7z"
+            }
+        }
+    }
+}
