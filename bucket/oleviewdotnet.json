@@ -9,7 +9,7 @@
         }
     },
     "extract_dir": "oleviewdotnet",
-    "bin": "oleviewdotnet.exe"
+    "bin": "oleviewdotnet.exe",
     "shortcuts": [
         [
             "oleviewdotnet.exe",
