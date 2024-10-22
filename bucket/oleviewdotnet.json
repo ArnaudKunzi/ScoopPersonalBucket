@@ -8,7 +8,6 @@
             "url": "https://github.com/tyranid/oleviewdotnet/releases/download/v1.11/Release.7z"
         }
     },
-    "extract_dir": "oleviewdotnet",
     "bin": "oleviewdotnet.exe",
     "shortcuts": [
         [
